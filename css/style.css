@@ -19,8 +19,54 @@ header{
   background-color: #0c325a;
   height: 60px;
   width: auto;
+  padding: 20px 10% 0% 10%;
 }
 
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav{
+  width: 50%;
+  float: left;
+}
+
+
+nav ul li {
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.utente{
+  text-align: right;
+  padding-top: 20px;
+}
+
+button{
+  background-color: #7cbb02;
+  padding: 7px ;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.login{
+  background-color: #0c325a;
+  border-color: white;
+  border: 1px solid white;
+  padding: 7px 25px 7px 25px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* corpo  */
 .headerimg{
   background-color: #0c325a;
   height: 300px;
@@ -43,9 +89,9 @@ header{
 }
 
 .contain::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .box{
