@@ -2,8 +2,92 @@
   margin: 0;
   padding: 0;
 }
+/* colori del progetto
+blu scuro:#0c325a;
+verde bottoni:#7cbb02;
+grigio chiaro:#d3d3d3;
+grigio scuro: #808080;
+*/
 
 body{
 font-family: 'Roboto', sans-serif;
-background-color: red;
+}
+
+/* intestazione */
+
+header{
+  background-color: #0c325a;
+  height: 60px;
+  width: auto;
+}
+
+.headerimg{
+  background-color: #0c325a;
+  height: 300px;
+}
+
+.title{
+  background-color: #d3d3d3;
+  height: 100px;
+}
+
+.titolo{
+  text-align: center;
+  padding-top: 25px;
+}
+
+.contain{
+  background-color: red;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.contain::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box{
+  background-color: yellow;
+  width: 32%;
+  height: 300px;
+  float: left;
+}
+
+.centrale{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.focus{
+  background-color: red;
+  height: 300px;
+}
+
+.laterale{
+  margin-left: 2%;
+}
+
+.boxx{
+  background-color: yellow;
+  width: 45%;
+  height: 300px;
+  float: left;
+  margin-left: 3%;
+}
+
+/* piè di pagina */
+footer{
+  background-color: #d3d3d3;
+  height: 100px;
+  width: auto;
+  padding: 1% 0;
+}
+
+.ricerca{
+  background-color: red;
+  width: 60%;
+  height: 70%;
+  margin: 0 auto;
 }
