@@ -200,16 +200,15 @@ footer{
   width: 60%;
   height: auto;
   margin: 0 auto;
-}
-
-.ricerca::after {
-  content: "";
-  display: table;
-  clear: both;
+  position: relative;
 }
 
 .utente ul li {
   color: black;
-  display: inline-block;
-  margin-right: 4%;
+}
+
+footer nav{
+  position: absolute;
+  right: 0;
+  top: 0;
 }
