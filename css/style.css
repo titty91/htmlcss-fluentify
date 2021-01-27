@@ -51,6 +51,9 @@ nav ul li {
   padding-top: 20px;
 }
 
+.utente ul li{
+  color: white;
+}
 button{
   background-color: #7cbb02;
   padding: 7px ;
@@ -79,6 +82,19 @@ nav ul li:last-child {
   background-repeat: no-repeat;
   background-position: right;
   height: 300px;
+}
+
+.slogan{
+  width: 40%;
+  height: auto;
+  margin-left: 10%;
+  padding-top: 5%;
+  color: white;
+}
+
+.slogan button{
+  margin-top: 20px;
+padding: 15px;
 }
 
 .title{
