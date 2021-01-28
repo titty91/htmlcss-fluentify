@@ -38,7 +38,6 @@ nav{
   float: left;
 }
 
-
 nav ul li {
   font-size: 15px;
   color: white;
@@ -46,14 +45,15 @@ nav ul li {
   margin-right: 4%;
 }
 
-.utente{
+.utente {
   text-align: right;
   padding-top: 20px;
 }
 
-.utente ul li{
+.utente ul li {
   color: white;
 }
+
 button{
   background-color: #7cbb02;
   padding: 7px ;
@@ -149,7 +149,6 @@ padding: 15px;
   width: 10%;
   color: #808080;
   margin: 10px 45% 10px;
-
 }
 
 .centrale{
@@ -203,7 +202,7 @@ footer{
   position: relative;
 }
 
-.utente ul li {
+.utentee ul li {
   color: black;
 }
 
